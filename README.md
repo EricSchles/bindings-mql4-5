@@ -63,7 +63,7 @@ sudo ldconfig
 
 ### Install zeromq
 
-# latest version as of this post is 4.1.2
+### latest version as of this post is 4.1.2
 
 wget http://download.zeromq.org/zeromq-4.1.2.tar.gz
 
