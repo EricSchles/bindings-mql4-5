@@ -1,0 +1,21 @@
+{
+  "name": "mars",
+  "version": "1.0.0",
+  "description": "https://github.com/DrawnWren/market-service/tree/master/exchanges",
+  "main": "mars.js",
+  "dependencies": {
+    "kafka-node": "^1.6.0",
+    "zeromq": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://maurodelazeri@bitbucket.org/maurodelazeri/mars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/maurodelazeri/mars#readme"
+}
