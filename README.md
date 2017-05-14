@@ -1,5 +1,5 @@
 # [hitback.us](https://www.hitback.us/ "Hitback")
-Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, bitcoins and options)
+Algorithmic trading and quantitative trading platform to develop trading robots (stock markets, forex, bitcoins and options)
 
 ###
 
