@@ -3,7 +3,7 @@ Algorithmic trading and quantitative trading platform to develop trading robots 
 
 ###
 
-The goal of this project is to provide [MQL4](https://www.metatrader4.com/ "Metatrader 4.") and [MQL5](https://www.metatrader5.com/ "Metatrader 5.") bindings for the [ZeroMQ](http://zeromq.org/ "ZeroMQ homepage.") networking library to an external server to create streaming pipeline with real time data. 
+This project is to provide [MQL4](https://www.metatrader4.com/ "Metatrader 4.") and [MQL5](https://www.metatrader5.com/ "Metatrader 5.") bindings for the [ZeroMQ](http://zeromq.org/ "ZeroMQ homepage.") networking library to an external server to create streaming pipeline with real time data. 
 
 With ZeroMQ (http://zeromq.org/) you can:
 * Connect your code in any language, on any platform.
