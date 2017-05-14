@@ -12,7 +12,7 @@ With ZeroMQ (http://zeromq.org/) you can:
 
 # Exchange side
 
-In this example we are using just one broker [XM](https://www.com.com/ "XM") for streaming the data but, you can connect to an unlimit numner of brokers at the same time.
+In this example we are using just one broker [XM](https://www.com.com/ "XM") for streaming the data but you can connect to an unlimit numner of brokers at the same time.
 
 ### INSTALL
 
