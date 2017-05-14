@@ -1,4 +1,7 @@
+# [hitback.us](https://www.hitback.us/ "Hitback")
 Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, bitcoins and options)
+
+###
 
 The goal of this project is to provide [MQL4](https://www.metatrader4.com/ "Metatrader 4.") and [MQL5](https://www.metatrader5.com/ "Metatrader 5.") bindings for the [ZeroMQ](http://zeromq.org/ "ZeroMQ homepage.") networking library to an external server to create streaming pipeline with real time data. 
 
