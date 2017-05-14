@@ -83,5 +83,6 @@ sudo ldconfig
 * PubNub
 * RabbitMQ
 * ZeroMQ
+* Kafka
 
 
