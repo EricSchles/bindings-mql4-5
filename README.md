@@ -16,7 +16,7 @@ With ZeroMQ (http://zeromq.org/) you can:
 
 # Exchange side
 
-In this example we are using just one broker [XM](https://www.com.com/ "XM") for streaming the data but you can connect to an unlimit numner of brokers at the same time.
+In this example we are using just two brokers [XM](https://www.com.com/ "XM") and [FXPRO](https://www.fxpro.com/ "fxpro") for streaming the data but you can connect to an unlimit numner of brokers at the same time.
 
 ### INSTALL
 
