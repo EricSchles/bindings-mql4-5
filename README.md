@@ -23,7 +23,7 @@ I'm using MetaTrader build 1000+ and ZeroMQ4.x
 
 * NOTE: when attaching to the chart make sure to select "Allow DLL Imports" and de-select "Confirm DLL Function Calls".
 * NOTE: If you want to use ZeroMQ different of 4.x you must compile the dll again
-
+* NOTE: Precompiled DLLs of both 64bit and 32bit ZeroMQ and libsodium are provided. If you are using MT5 32bit, use the 32bit version from `Library/MT4`. The DLLs require that you have the latest Visual C++ runtime (2015). *Note* that these DLLs are compiled from official sources, without any modification. You can compile your own if you don't trust these binaries. The `libsodium.dll` is copied from the official binary release. If you want to support security mechanisms other than `curve`, or you want to use transports like OpenPGM, you need to compile your own DLL.
 
 ## About string encoding
 
