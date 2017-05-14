@@ -35,8 +35,13 @@ MQL strings are Win32 UNICODE strings (basically 2-byte UTF-16). In this binding
 
 # Server side
 
-
 ### INSTALL
+
+Inside the Server folder there is a server with ZMQ that subscribe the brokers to get every tick and also the order book in real time.
+Once the ZMQ receive new ticks or any change on the order book happen, it is automatically re-streamed to [Kafka](https://kafka.apache.org/ "Kafka") / [ZeroMQ](http://www.zeromq.org/ "ZeroMQ") and [PubNub](https://www.pubnub.com/ "PubNub") and you can process this data in real time.
+
+
+
 
 
 
