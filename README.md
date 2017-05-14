@@ -1,4 +1,3 @@
-# bindings-mql4-5
 
 The goal of this project is to provide [MQL4](https://www.metatrader4.com/ "Metatrader 4.") and [MQL5](https://www.metatrader5.com/ "Metatrader 5.") bindings for the [ZeroMQ](http://zeromq.org/ "ZeroMQ homepage.") networking library to an external server to create streaming pipeline with real time data. 
 
@@ -10,6 +9,10 @@ With ZeroMQ (http://zeromq.org/) you can:
 * Backed by a large and active open source community.
 * Supports every modern language and platform.
 * Build any architecture: centralized, distributed, small, or large.
+
+# Exchange side
+
+In this example we are using just one broker [XM](https://www.com.com/ "XM") for streaming the data but, you can connect to an unlimit numner of brokers at the same time.
 
 ### INSTALL
 
@@ -26,4 +29,10 @@ I'm using MetaTrader build 1000+ and ZeroMQ4.x
 
 MQL strings are Win32 UNICODE strings (basically 2-byte UTF-16). In this binding all strings are converted to utf-8 strings before sending to the dll layer. The ZmqMsg supports a constructor from MQL strings, the default is _NOT_ null-terminated.
 
-## About string encoding
+# Server side
+
+
+### INSTALL
+
+
+
