@@ -17,7 +17,8 @@ module.exports = {
     openTrades: [],
 
     exchangeMarkets: {
-        'xp': require('./exchanges/xm')
+        'xp': require('./exchanges/xm'),
+        'fxpro': require('./exchanges/fxpro')
     },
 
     initialize: function() {
