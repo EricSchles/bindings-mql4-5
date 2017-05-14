@@ -41,6 +41,43 @@ Inside the Server folder there is a server with ZMQ that subscribe the brokers t
 Once the ZMQ receive new ticks or any change on the order book happen, it is automatically re-streamed to [Kafka](https://kafka.apache.org/ "Kafka") / [ZeroMQ](http://www.zeromq.org/ "ZeroMQ") and [PubNub](https://www.pubnub.com/ "PubNub") and you can process this data in real time.
 
 
+## Install ZMQ Ubuntu 16.04
+
+sudo apt-get install libtool pkg-config build-essential autoconf automake
+
+sudo apt-get install libzmq-dev
+
+### Install libsodium
+
+git clone git://github.com/jedisct1/libsodium.git
+
+cd libsodium
+
+./autogen.sh
+
+./configure && make check
+
+sudo make install
+
+sudo ldconfig
+
+### Install zeromq
+
+# latest version as of this post is 4.1.2
+
+wget http://download.zeromq.org/zeromq-4.1.2.tar.gz
+
+tar -xvf zeromq-4.1.2.tar.gz
+
+cd zeromq-4.1.2
+
+./autogen.sh
+
+./configure && make check
+
+sudo make install
+
+sudo ldconfig
 
 
 
